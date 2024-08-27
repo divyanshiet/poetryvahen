@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.card
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  height: 450px;
+  align-items: center;
+  background-color: rgb(88, 126, 106);
+}
+.image img
+{
+  width: 350px;
+  height: 300px;
+}
+.content
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.book-name
+{
+  font-family: "Love Ya Like A Sister", cursive;
+  font-weight: 400;
+  font-size: 50px;
+}
+.book-description
+{
+  font-family: "Comic Neue", cursive;
+  font-size: 20px;
+  width: 220px;
+}
+.read-btn button
+{
+  font-size: 15px;
+  background-color: rgb(213, 100, 19);;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px rgb(213, 100, 19);
+}
+.read-btn a{
+  text-decoration: none;
+  font-family: "Love Ya Like A Sister", cursive;
+  color: white;
+}
